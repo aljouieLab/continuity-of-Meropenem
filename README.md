@@ -1,5 +1,5 @@
 # continuity of Meropenem
-This is part of a project approved by the IRB at KAIMRC with study number (protocol no: NRC23R/586/10) to evaluate the effectiveness of machine learning models in giving a decision of whether to continue or discontinueMeropenem beyond the initial 48-hours for pediatric patients using a set of features: 
+This is part of a project approved by the IRB at KAIMRC with study number (protocol no: NRC23R/586/10) to evaluate the effectiveness of machine learning models in giving a decision of whether to continue or discontinueMeropenem beyond the initial 48-hours for pediatric patients admitted to PICU at KASCH using a set of features independently reviewed by four ASP experts (three internal and one external): 
   1. Indication for Meropenem
   2. CNS infection?
   3. Infective Endocarditis?
