@@ -1,5 +1,5 @@
 # continuity of Meropenem
-This is part of a project approved by the IRB at KAIMRC with study number (protocol no: NRC23R/586/10) to evaluate the effectiveness of machine learning models in giving a decision of whether to continue or discontinueMeropenem beyond the initial 48-hours for pediatric patients admitted to PICU at KASCH using a set of features independently reviewed by four ASP experts (three internal and one external): 
+This is part of a project approved by the IRB at KAIMRC with study number (protocol no: NRC23R/586/10) to evaluate the effectiveness of machine learning models in giving a decision of whether to continue or discontinue Meropenem beyond the initial 48-hours for pediatric patients admitted to PICU at KASCH using a set of features independently reviewed by four ASP experts (three internal and one external): 
   1. Indication for Meropenem
   2. CNS infection?
   3. Infective Endocarditis?
@@ -16,4 +16,8 @@ This is part of a project approved by the IRB at KAIMRC with study number (proto
   14. Is there an acceptable alternative oral antibiotic
 
 The repo contains example data genrated with random function (not actual data)  
-Research Team: Dr. Jaber Abdullah, Dr. Mohmmed Alenezi, Dr. Jubran Qanatish, Dr. Ali Alshehri, Dr. Khaled Alsager, Dr. Abdulrhman Aljouie 
+
+Research Team: 
+Principal Investigator: Dr. Jaber Abdullah, 
+Co-investigators: 
+Dr. Mohmmed Alenezi, Dr. Jubran Qanatish, Dr. Ali Alshehri, Dr. Khaled Alsager, Dr. Abdulrhman Aljouie 
