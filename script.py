@@ -19,9 +19,9 @@ from scipy.stats import chi2_contingency
 X = pd.read_csv('data_example.csv')
 
 y = X['label']
-X_mrn = X.drop(['Infective Endocarditis? \n1.Yes\n0.No', 'Days of therapy'],  axis = 1)
+X_study_id = X.drop(['Infective Endocarditis? \n1.Yes\n0.No', 'Days of therapy'],  axis = 1)
 
-X = X.drop(['label', 'Infective Endocarditis? \n1.Yes\n0.No', 'Days of therapy'],  axis = 1)
+X = X.drop(['study_id', 'label', 'Infective Endocarditis? \n1.Yes\n0.No', 'Days of therapy'],  axis = 1)
 
 np.random.seed(0)
 
@@ -208,7 +208,7 @@ print("Confidence Interval (95%):", lower_bound, "-", upper_bound)
 
 
 # save the results of misclassification 
-filtered_df = X_mrn[X_mrn.index.isin(y_test.index)]
+filtered_df = X_study_id[X_study_id.index.isin(y_test.index)]
 filtered_df
 misclassified_indices
 header = filtered_df.columns
