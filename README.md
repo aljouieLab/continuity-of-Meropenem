@@ -15,7 +15,7 @@ This is part of a project approved by the IRB at KAIMRC with study number (proto
   13. Allergy to any of the following antibiotics (Ampicillin/Amoxicillin, Penicillin, Ceftriaxone/Ceftazidime, Tazocin, Cefepime)
   14. Is there an acceptable alternative oral antibiotic
 
-The repo contains example data genrated with random function (not actual data)  
+The repo contains de-identified and anonymized data genrated during the study in accordance with the IRB
 
 Research Team: 
 Principal Investigator: Dr. Jaber Abdullah, 
