@@ -258,6 +258,7 @@ df_concatenated.to_csv('test_set_results.csv', index = False)
 
 
 # Heatmap on the entire data between pair of features with chi-square test p-values
+target = y.to_frame('target')
 
 # Combine the X and target dataframes
 data = pd.concat([X, target], axis=1)
