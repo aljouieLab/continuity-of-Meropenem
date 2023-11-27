@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from scipy.stats import chi2_contingency
 
 
-X = pd.read_csv('data_example.csv')
+X = pd.read_csv('mer_de-id.csv')
 
 y = X['label']
 X_study_id = X.drop(['Infective Endocarditis? \n1.Yes\n0.No', 'Days of therapy'],  axis = 1)
